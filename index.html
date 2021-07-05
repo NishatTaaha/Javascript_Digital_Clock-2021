@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #221f1f;
+            /* background-color: palevioletred; */
+            font-family: 'Encode Sans SC', sans-serif;
+        }
+
+      
+    
+        .font{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            text-shadow: 0 0 20px #ff005b;
+        }
+
+        .time{
+            font-size: 4rem;
+        }
+
+        .remainingDay{
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            <h1 class="font">
+                <div class="time">
+                    <span id="hours">12</span>
+                    <span>:</span>
+                    <span id="minutes">60</span>
+                    <span>:</span>
+                    <span id="seconds">60</span>
+                    <span id="am-pm">AM</span>
+                </div>
+                <div class="remainingDay">
+                    <span id="day">01</span>
+                    <span id="month">01</span>
+                    <span id="year">2001</span>
+                    <span id="week">Sunday</span>
+                </div>
+            </h1>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
